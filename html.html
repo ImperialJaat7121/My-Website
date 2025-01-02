@@ -3,13 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Demo Project</title>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="Css.css">
 </head>
 <body>
-    <h1>WELCOME TO MY WEBSITE</h1>
-    <P>
-        This Website is all about myself and the implementation of the things that i have learned in the past few months.
-    </P>
-   <div id=""></div> 
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h1>About Me</h1>
+        <p>Welcome to my portfolio! I'm a Student at MANIT Bhopal, learning new things, exploring the Digital World.
+            <br>
+            "Don't reveal too much, Mystery gives it Beauty"
+        </p>
+    </section>
+
+    <section id="skills">
+        <h1>Skills</h1>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>C Language</li>
+            <li>Video Editing</li>
+        </ul>
+    </section>
+
+    <section id="education">
+        <h1>Education</h1>
+        <div class="education">
+            <h2>Bachelor of Technology in Material Sciences and Metallurgy</h2>
+            <p>MAULANA AZAD NATIONAL INSTITUTE OF TECHNOLOGY</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h1>Projects</h1>
+        <div class="project">
+            <h2>SIMPLE CALCULATOR</h2>
+            <p>This is a Simple Calculator designed by me.
+                <br>
+                <a href="https://github.com/ImperialJaat7121/Simple-Calculator-Website-.git" class="btn" target="_blank">VISIT GITHUB</a>
+            </p>
+        </div>
+        <div class="project">
+            <h2>TO DO LIST</h2>
+            <p>This is a Simple To Do List website Designed by me.
+                <br>
+                <a href="https://github.com/ImperialJaat7121/Simple-Calculator-Website-.git" class="btn" target="_blank">VISIT GITHUB</a>
+            </p>
+        </div>
+        <div class="project">
+            <h2>CHECK MY PYTHON PROJECTS HERE</h2>
+            <p>I Upload my all Python projects here.
+                <br>
+                <a href="https://github.com/ImperialJaat7121/PYTHON-PROGRAMS-.git" class="btn" target="_blank">VISIT GITHUB</a>
+            </p>
+        </div>
+        <div class="project">
+            <h2>CHECK MY C LANGUAGE PROGRAMS HERE</h2>
+            <p>I Upload my all C Language projects here.
+                <br>
+                <a href="https://github.com/ImperialJaat7121/C-PROGRAMS-.git" class="btn" target="_blank">VISIT GITHUB</a>
+            </p>
+        </div>
+        <div class="project">
+            <h2>CHECK MY VIDEO EDITING PROJECTS HERE</h2>
+            <p>Here's the drive link of some of my Edited Videos.
+                <br>
+                <a href="" class="btn" target="_blank">VISIT DRIVE</a>
+            </p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1>Contact</h1>
+        <form id="contact-form">
+            <input type="text" id="name" name="name" placeholder="Your Name">
+            <input type="email" id="email" name="email" placeholder="Your Email">
+            <textarea id="message" name="message" placeholder="Your Message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 IMPERIAL JAAT. All rights reserved.</p>
+    </footer>
+
+    <script src="Js.js"></script>
 </body>
 </html>
